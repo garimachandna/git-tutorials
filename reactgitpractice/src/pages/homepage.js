@@ -1,14 +1,17 @@
 import React from "react";
 import Layout from "../components/layout";
 import "../styles/homepage.css";
+import { useAuth } from "../context/auth";
 
 const Homepage = () => {
   console.log("Homepage");
+  // const [auth, setAuth] = useAuth();
   return (
     <>
       <Layout classname="body">
         <div className="main">
           <h1 className="heading">Welcome to our shopping complex</h1>
+          {/* <pre>{JSON.stringify(auth, null, 4)} </pre> */}
           <small className="subhead">
             One Stop Solution for all your shopping needs
           </small>
