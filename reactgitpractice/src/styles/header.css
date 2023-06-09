@@ -1,0 +1,12 @@
+.navhover:hover{
+    color: #5372b6 !important;
+    cursor: pointer;
+    background-color:#2e3f44;
+    text-decoration: none;
+    border: 2px solid #2e3f44;
+    border-radius: 5px;
+}
+
+.nav-item{
+    margin-inline: 4px !important;
+}

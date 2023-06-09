@@ -5,7 +5,7 @@ import Header from "./header";
 
 const Layout = ({ children, title, description, keywords }) => {
   return (
-    <div>
+    <div className="layout">
       <Helmet>
         <meta charSet="utf-8" />
         <meta name="description" content={description} />
